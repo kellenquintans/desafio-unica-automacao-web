@@ -1,0 +1,24 @@
+{
+  "name": "magalu",
+  "version": "1.0.0",
+  "description": "Desafio Tecnologia Única - automação Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "magalu",
+    "unica"
+  ],
+  "author": "Kellen Quintans",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

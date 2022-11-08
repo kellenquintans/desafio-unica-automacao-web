@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-11-08T12:18:32.417Z",
+    "end": "2022-11-08T12:19:32.618Z",
+    "duration": 60201,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "79918b33-5bb0-485e-82cd-8043e44870af",
+      "title": "",
+      "fullFile": "cypress\\e2e\\SiteMagalu.cy.js",
+      "file": "cypress\\e2e\\SiteMagalu.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+          "title": "Magazine Luiza",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "acessar o portal Magazine Luiza",
+              "fullTitle": "Magazine Luiza acessar o portal Magazine Luiza",
+              "timedOut": null,
+              "duration": 11901,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homepage.default.acessar();",
+              "err": {},
+              "uuid": "5854fe22-b14d-4eb3-aa4f-bd36c6cc8eb5",
+              "parentUUID": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "realizar busca por produto",
+              "fullTitle": "Magazine Luiza realizar busca por produto",
+              "timedOut": null,
+              "duration": 4947,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_pesquisaProduto.default.busca();",
+              "err": {},
+              "uuid": "4cdc3963-6f27-41bd-979c-a34b99a1e48e",
+              "parentUUID": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "validar o retorno da busca",
+              "fullTitle": "Magazine Luiza validar o retorno da busca",
+              "timedOut": null,
+              "duration": 23450,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.wait(five_seconds);\n_retornoDaBusca.default.retorno();",
+              "err": {},
+              "uuid": "0efe5036-580c-481d-886c-7d612a228e75",
+              "parentUUID": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "seleciona um produto da lista",
+              "fullTitle": "Magazine Luiza seleciona um produto da lista",
+              "timedOut": null,
+              "duration": 1265,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_listaDeProdutos.default.lista();",
+              "err": {},
+              "uuid": "00aa12b1-e382-439d-a7df-1c7b45b204f0",
+              "parentUUID": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "adiciona e valida o item na sacola",
+              "fullTitle": "Magazine Luiza adiciona e valida o item na sacola",
+              "timedOut": null,
+              "duration": 14026,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_validaSacola.default.adcionarNaSacola();\ncy.wait(five_seconds);\n_validaSacola.default.produtoAdcionado();\n_validaSacola.default.validaItens();",
+              "err": {},
+              "uuid": "cb255160-8216-42e6-b648-1412afeaac23",
+              "parentUUID": "66f9d8d2-b289-4721-bd58-c6319988aa72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5854fe22-b14d-4eb3-aa4f-bd36c6cc8eb5",
+            "4cdc3963-6f27-41bd-979c-a34b99a1e48e",
+            "0efe5036-580c-481d-886c-7d612a228e75",
+            "00aa12b1-e382-439d-a7df-1c7b45b204f0",
+            "cb255160-8216-42e6-b648-1412afeaac23"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 55589,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Cypress/reporte/mochawesome-report",
+        "quiet": true,
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
